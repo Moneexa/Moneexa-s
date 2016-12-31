@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Job Forum</title>
+<meta name="description" content="Job Forum" >
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+<style>
+body{
+
+background: url('back.jpg');
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b03060;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+}
+
+.active {
+    background-color: #DDA0DD;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<header >
+<div class="hh" style="background-color:pink;">
+<img src="logo (3).png" style="width:100px;">
+<img src="a.png" style="width:300px;">
+</div>
+<ul>
+  <li><a  href="horo.html">Horoscope</a></li>
+  <li><a href="contactus.html">Contact us</a></li>
+  <li><a href="test1.html">Home</a></li>
+  <li><a href="#about">About us</a></li>
+  <li><a href="#news">Dream Search</a></li>
+  <li><a class="active" href="signup.html">Meet Astrologer</a></li>
+
+</ul>
+
+
+</header>
+
+
+<h1 style="font-family:cursive; color:white">
+<i> First Subscribe Here </i>
+</h1>
+
+<div class="container">
+
+<div class="jumbotron">
+                 <form class="form-horizontal" role="form" action="chat.html">
+                        <div class="form-group">
+                            <label for="UserName" class="col-md-5 control-label">User Name</label>
+                            <div class="col-md-3">
+                                <input class="form-control" id="User-Name" placeholder="User Name" required="" type="name">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="Password" class="col-md-5 control-label">Password</label>
+                            <div class="col-md-3">
+                                <input class="form-control" id="pasword" placeholder="Password" required="" type="password">
+                            </div>
+                        </div>
+                        
+                           <div class="form-group">
+                            <label for="Password" class="col-md-5 control-label">Re-enter Password</label>
+                            <div class="col-md-3">
+                                <input class="form-control" id="pasword" placeholder="Password" required="" type="password">
+                            </div>
+                        </div>
+                      
+                         <div class="form-group">
+                       <label for="city" class="col-md-5 control-label">City</label>
+                       <div class="col-md-3">
+                        <select class="form-control" id="cty" >
+                        <option>Choose an option</option>
+                        <option>Lahore</option>
+                         <option>Islamabad</option>
+                          <option>Karachi</option>
+                           <option>Faisalabad</option>
+                       </select>
+                       </div>
+                        </div>
+                        
+                        <div class="form-group">
+                       <label for="gender" class="col-md-5 control-label">Gender</label>
+                       <div class="col-md-3">
+                        <select class="form-control" id="gndr" >
+                        <option>Choose an option</option>
+                        <option>Male</option>
+                         <option>Female</option>
+                       </select>
+                       </div>
+                        </div>
+                       
+                        
+                          <div class="form-group">
+                          
+                       <label for="age" class="col-md-5 control-label">Age</label>
+                  
+                       <div class="col-md-1">
+                        <form action="">
+                        <select name="" >
+                        <option value="Date">Date</option>
+                        <option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option>
+                        <option value="05">05</option><option value="06">06</option>
+                         <option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                         <option value="11">11</option><option value="12">12</option>
+                         <option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option>
+                         <option value="17">17</option><option value="18">18</option>
+                         <option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option>
+                         <option value="23">23</option><option value="24"> 24</option>
+                         <option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option>
+                         <option value="29">29</option><option value="30">30</option>
+                       </select></form>
+                       </div>
+                            <div class="col-md-1">
+                        <form action="">
+                        <select name="" >
+                        <option value="Month">Month</option>
+                        <option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option>
+                        <option value="05">05</option><option value="06">06</option>
+                         <option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option>
+                         <option value="11">11</option><option value="12">12</option>
+                       </select></form></div>
+                      
+                      <div class="col-md-1">
+                        <form action="">
+                        <select name="" >
+                        <option value="Year">Year</option>
+                       <option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option>
+                       <option value="1993">1993</option><option value="1194">1994</option>
+                       <option value="1995">1995</option>
+                         <option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option>
+                         <option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001
+                         </option> <option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option>
+                         <option value="2005">2005</option><option value="2006">2006</option>
+                         </select></form></div>
+                   </div>
+                       
+                      
+                        <div class="form-group">
+                        <label for="buton" class="col-md-5 control-label"></label>
+                        <div class="col-md-6">
+                      <button type="button" class="btn btn-danger">Submit</button>
+                      </div>
+                      </div>
+                    </form>
+                   
+           
+</div>
+</div>
+
+
+
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</body>
+</html>
+>
